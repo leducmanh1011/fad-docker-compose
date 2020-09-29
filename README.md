@@ -12,9 +12,9 @@ This is docker compose setting for all services used by FAD project
 - Export `DISCO_HOME_DIR` environment for build `web` service
 
 ```bash
-echo 'export DISCO_HOME_DIR="/path/to/disco/directory"' >> ~/.bashrc
+echo 'export SOURCE_HOME_DIR=""' >> ~/.bashrc
 # or if you use zsh
-echo 'export DISCO_HOME_DIR="/path/to/disco/directory"' >> ~/.zshrc
+echo 'export SOURCE_HOME_DIR=""' >> ~/.zshrc
 ```
 
 - Copy `Dockerfile` and `entrypoint.sh` files in `web` directory into your FAD project root directory.
