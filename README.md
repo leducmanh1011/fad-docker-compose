@@ -33,6 +33,10 @@ entrypoint.sh
 - Make sure you have no services in `Exit` status.
 
 ### Coding & debugging
+- Running and rebuild container
+```bash
+docker-compose up --build {container_name}
+```
 
 - You can access `rails c` from your host machine if you have ruby and rails installed or you can access from your docker machine by this command:
 
