@@ -2,6 +2,7 @@ version: "3"
 services:
   db:
     image: mysql:5.7.31
+    #port: port local - port docker
     ports:
       - "3306:3306"
     volumes:
