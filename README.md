@@ -9,7 +9,7 @@ This is docker compose setting for all services used by FAD project
 
 ### Configuration
 
-- Export `DISCO_HOME_DIR` environment for build `web` service
+- Export `SOURCE_HOME_DIR` environment for build `web` service
 
 ```bash
 echo 'export SOURCE_HOME_DIR=""' >> ~/.bashrc
