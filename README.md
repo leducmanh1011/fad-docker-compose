@@ -1,4 +1,4 @@
-## fad_compose
+## 🔥 Food And Drink Docker Compose
 
 This is docker compose setting for all services used by FAD project
 
